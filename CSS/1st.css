@@ -1,0 +1,43 @@
+h1{
+    color: green;
+}
+ol{
+    color: red;
+    list-style: square;
+}
+h2,h3{
+    color: blueviolet;
+}
+p{
+    color: magenta;
+}
+.special{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+body h3+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 4px;
+}
+#heading{
+    color: cyan;
+    background-color: black;
+    
+}
+p#one{
+    background-color: bisque;
+}
+li[class]{
+    background-color: aqua;
+}
+li[class~=d]{
+    font-size: 200%;
+}
+*{
+    font-style: oblique;
+}
