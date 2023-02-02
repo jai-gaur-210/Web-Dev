@@ -1,0 +1,29 @@
+#heading{
+    color: black;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dabba{
+    width: 25%;
+}
+@media screen and (min-width:401px) and (max-width:700px) {
+    .dabba{
+        width: 50%;
+    }
+    #heading{
+        color: red;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .dabba{
+        width: 100%;
+    }
+    #heading{
+        color: cyan;
+    }
+}
