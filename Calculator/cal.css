@@ -1,0 +1,89 @@
+body{
+    background-color: #144194;
+}
+.dabba{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    background-color: #144194;
+    border-radius: 20px;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    color: #144194;
+}
+.main{
+    padding: 40px;
+    width: 320px;
+    height: auto;
+    background-color: rgb(219, 243, 255);
+    border-radius: 20px;
+    align-self: center;
+    padding-top: 15px;
+    border: 2px solid black;
+}
+.Ldabba{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+input {
+    background-color: #b8d1ed; 
+    width: 98%;
+    columns: #0c1832;
+    text-align: end;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-top: 40px;   
+    padding-bottom: 40px;  
+    
+}
+.no{
+    background-color:  #b8d1ed;
+    color: #0c1832;
+    margin-right: 8px;
+    width: 18%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.sign{
+    color: #144194;
+    background-color: #9ccbfe;
+    width: 18%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.enter{
+    background-color: #628ab5;
+    color: #d5e9ff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.no:hover{
+    background-color: #879eb8;
+}
+.sign:hover{
+    background-color: rgb(102, 141, 185);
+}
+.enter:hover{
+    background-color: #476483;
+}

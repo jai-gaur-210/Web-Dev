@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="dabba">
+        <div class="main">
+            <h1>CALCULATOR</h1>
+            <div>
+                <input type="text" name="text" id="text">
+            </div>
+            <div class="Ldabba">
+                <button class="no" onclick="dis('7')">7</button>
+                <button class="no" onclick="dis('8')">8</button>
+                <button class="no" onclick="dis('9')">9</button>
+                <button class="sign" onclick="del()">&#8592</button>
+                <button class="sign" onclick="clr()">C</button>
+            </div>
+            <div class="Ldabba">
+                <button class="no" onclick="dis('4')">4</button>
+                <button class="no" onclick="dis('5')">5</button>
+                <button class="no" onclick="dis('6')">6</button>
+                <button class="sign" onclick="dis('*')">&#215</button>
+                <button class="sign" onclick="dis('/')">&#247</button>
+            </div>
+            <div class="Ldabba">
+                <button class="no" onclick="dis('1')">1</button>
+                <button class="no" onclick="dis('2')">2</button>
+                <button class="no" onclick="dis('3')">3</button>
+                <button class="sign" onclick="dis('+')">+</button>
+                <button class="sign" onclick="dis('-')">-</button>
+            </div>
+            <div class="Ldabba">
+                <button class="sign" onclick="dis('.')">.</button>
+                <button class="no" onclick="dis('0')">0</button>
+                <button class="sign" onclick="toggleMinus()">+/-</button>
+                <button class="enter" onclick="sol()">Enter</button>
+            </div>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
