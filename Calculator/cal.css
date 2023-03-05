@@ -6,7 +6,7 @@ body{
 
     flex-direction: column;
     justify-content: center;
-    background-color: #144194;
+    
     border-radius: 20px;
     padding: 50px;
 }
@@ -37,6 +37,7 @@ input {
     border-radius: 10px;
     font-size: 35px;
     margin-bottom: 10px;
+   
     padding-top: 40px;   
     padding-bottom: 40px;  
     
@@ -66,6 +67,7 @@ input {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
 .enter{
     background-color: #628ab5;
     color: #d5e9ff;
@@ -73,8 +75,8 @@ input {
     border-radius: 10px;
     font-size: 25px;
     padding: 10px;
-    padding-right: 25px;
-    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 25px;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -84,6 +86,7 @@ input {
 .sign:hover{
     background-color: rgb(102, 141, 185);
 }
+
 .enter:hover{
     background-color: #476483;
 }
